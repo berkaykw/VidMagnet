@@ -1,0 +1,15 @@
+# Python virtual environment
+backend/venv/
+
+# Flutter build outputs
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.idea/
+
+# IDE dosyaları
+*.iml
+*.ipr
+*.iws
+
+# Diğer
+*.log
