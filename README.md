@@ -12,5 +12,4 @@ Backend Python FastAPI ile yazılmıştır, frontend ise Flutter kullanılarak g
 - Basit ve hızlı kullanıcı arayüzü (Flutter)
 - Hızlı ve güvenilir backend (FastAPI + yt-dlp)
 
----
 
