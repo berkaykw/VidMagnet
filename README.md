@@ -12,15 +12,4 @@ Backend Python FastAPI ile yazılmıştır, frontend ise Flutter kullanılarak g
 - Basit ve hızlı kullanıcı arayüzü (Flutter)
 - Hızlı ve güvenilir backend (FastAPI + yt-dlp)
 
----
 
-## Kurulum ve Çalıştırma
-
-### Backend
-
-1. Python 3.12+ yüklü olmalı  
-2. Sanal ortam oluştur ve aktif et:  
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate  # Windows için
-   source venv/bin/activate # Mac/Linux için
