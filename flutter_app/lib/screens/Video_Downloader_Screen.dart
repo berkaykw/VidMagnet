@@ -37,7 +37,7 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
       );
       return; // durdur
     }
-   final url = Uri.parse('http://10.0.2.2:8000/download');
+    final url = Uri.parse('http://10.0.2.2:8000/download');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},
@@ -93,6 +93,18 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
               HeaderText(),
               TextField_URL(controller: _controller),
               SizedBox(height: 25),
+              CheckboxListTile(
+                title: Text(
+                  'Ses olarak indir',
+                  style: TextStyle(color: Colors.white),
+                ),
+                value: _audioOnly,
+                onChanged: (bool? value) {
+                  setState(() {
+                    _audioOnly = value ?? false;
+                  });
+                },
+              ),
               Custom_Button(
                 button_text: "Download",
                 button_color: Colors.deepPurple[900]!,
@@ -104,29 +116,6 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
                 font_weight: FontWeight.w800,
                 font_family: 'Manrope',
               ),
-              SizedBox(height: 16),
-              Custom_Button(
-                button_text: "Clear",
-                button_color: Colors.white,
-                text_color: Colors.black,
-                onPressed: () {
-                  _controller.clear();
-                },
-                width: 0.5,
-                height: 0.06,
-                font_size: 24,
-                font_weight: FontWeight.w800,
-                font_family: 'Manrope',
-              ),
-              CheckboxListTile(
-  title: Text('Ses olarak indir'),
-  value: _audioOnly,
-  onChanged: (bool? value) {
-    setState(() {
-      _audioOnly = value ?? false;
-    });
-  },
-),
             ],
           ),
         ),

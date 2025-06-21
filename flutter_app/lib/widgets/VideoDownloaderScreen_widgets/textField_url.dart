@@ -12,6 +12,9 @@ class TextField_URL extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
                 controller: controller,
                 decoration: InputDecoration(
+                  suffixIcon: IconButton(onPressed: () {
+                    controller.clear();
+                  }, icon: Icon(Icons.close,color: Colors.white70,)),
                   labelText: "Video URL",
                   labelStyle: TextStyle(
                     color: Colors.white54,
