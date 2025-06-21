@@ -15,6 +15,7 @@ class VideoDownloaderScreen extends StatefulWidget {
 class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
   final TextEditingController _controller = TextEditingController();
   String _status = '';
+  bool _audioOnly = false;
 
   Future<void> sendVideoUrls() async {
     if (_controller.text.trim().isEmpty) {
@@ -36,13 +37,13 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
       );
       return; // durdur
     }
-
-    final url = Uri.parse('http://10.0.2.2:8000/download');
+   final url = Uri.parse('http://10.0.2.2:8000/download');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode({
         'url_list': [_controller.text],
+        'audio_only': _audioOnly,
       }),
     );
 
@@ -117,6 +118,15 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
                 font_weight: FontWeight.w800,
                 font_family: 'Manrope',
               ),
+              CheckboxListTile(
+  title: Text('Ses olarak indir'),
+  value: _audioOnly,
+  onChanged: (bool? value) {
+    setState(() {
+      _audioOnly = value ?? false;
+    });
+  },
+),
             ],
           ),
         ),
