@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/body_headerText.dart';
 import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/customButton.dart';
-import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/headerText.dart';
+import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/headerTextRich.dart';
 import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/logo_headerText.dart';
+import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/selectFormat.dart';
 import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/textField_url.dart';
 import 'package:flutter_app/widgets/image_logo.dart';
 import 'package:http/http.dart' as http;
@@ -37,7 +39,8 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
       );
       return; // durdur
     }
-    final url = Uri.parse('http://10.0.2.2:8000/download');
+    //final url = Uri.parse('http://10.0.2.2:8000/download');
+    final url = Uri.parse('http://127.0.0.1:8000/download');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},
@@ -91,20 +94,21 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
               LogoImage(),
               LogoHeaderText(),
               HeaderText(),
+              SizedBox(height: 50),
+              BodyHeaderText(text: "Enter Video URL"),
               TextField_URL(controller: _controller),
               SizedBox(height: 25),
-              CheckboxListTile(
-                title: Text(
-                  'Ses olarak indir',
-                  style: TextStyle(color: Colors.white),
-                ),
-                value: _audioOnly,
-                onChanged: (bool? value) {
+              BodyHeaderText(text: "Select Format"),
+              SizedBox(height: 20,),
+              SelectFormat(
+                audioOnly: _audioOnly,
+                onChanged: (bool val) {
                   setState(() {
-                    _audioOnly = value ?? false;
+                    _audioOnly = val;
                   });
                 },
               ),
+              SizedBox(height: 50),
               Custom_Button(
                 button_text: "Download",
                 button_color: Colors.deepPurple[900]!,
