@@ -7,35 +7,45 @@ class TextField_URL extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-              padding: EdgeInsets.only(top: 20, left: 5, right: 5),
-              child: TextField(
-                style: TextStyle(color: Colors.white),
-                controller: controller,
-                decoration: InputDecoration(
-                  suffixIcon: IconButton(onPressed: () {
-                    controller.clear();
-                  }, icon: Icon(Icons.close,color: Colors.white70,)),
-                  labelText: "Video URL",
-                  labelStyle: TextStyle(
-                    color: Colors.white54,
-                    fontFamily: 'Manrope',
-                    fontWeight: FontWeight.w500,
-                  ),
-                  filled: true,
-                  fillColor: Colors.white12,
-                  enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(width: 2.5),
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderSide: BorderSide(
-                      color: Colors.deepPurple[900]!,
-                      width: 2.5,
-                    ),
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                ),
+      padding: EdgeInsets.only(top: 20, left: 5, right: 5),
+      child: SizedBox(
+        height: 70,
+        child: TextField(
+          style: TextStyle(color: Colors.white),
+          controller: controller,
+          decoration: InputDecoration(
+            suffixIcon: IconButton(
+              onPressed: () {
+                controller.clear();
+              },
+              icon: Icon(Icons.close, color: Colors.white70),
+            ),
+            labelText: "Video URL",
+            labelStyle: TextStyle(
+              color: Colors.white54,
+              fontFamily: 'Manrope',
+              fontWeight: FontWeight.w500,
+            ),
+            filled: true,
+            fillColor: Colors.white12,
+            enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(width: 2.5),
+              borderRadius: BorderRadius.circular(15),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(
+                color: Colors.deepPurple[900]!,
+                width: 2.5,
               ),
-            );
+              borderRadius: BorderRadius.circular(15),
+            ),
+            contentPadding: EdgeInsets.symmetric(
+              vertical: 20,
+              horizontal: 15,
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
