@@ -6,7 +6,7 @@ class HeaderText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 100, left: 25, right: 25),
+      padding: EdgeInsets.only(top: 30, left: 25, right: 25),
       child: Text.rich(
         TextSpan(
           children: [
