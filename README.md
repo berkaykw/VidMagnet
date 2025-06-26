@@ -1,7 +1,7 @@
 # VidMagnet
 
-**VidMagnet**, YouTube, TikTok, Instagram gibi popüler video platformlarından çoklu video indirmenizi sağlayan çapraz platform bir uygulamadır.  
-Backend Python FastAPI ile yazılmıştır, frontend ise Flutter kullanılarak geliştirilmiştir.
+**VidMagnet**, kullanıcıların çeşitli video platformlarından video ve ses dosyalarını kolayca indirip kaydedebildiği çok platformlu bir uygulamadır.
+Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python backend’i sayesinde yt-dlp ve FFmpeg kütüphanelerinin gücünden faydalanarak hızlı ve sorunsuz indirme işlemleri gerçekleştirir.
 
 ---
 
