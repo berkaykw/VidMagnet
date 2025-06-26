@@ -1,3 +1,6 @@
+
+![Screenshot_1](https://github.com/user-attachments/assets/c37e5aba-c80d-4466-82a2-ffdea634886d)
+
 # VidMagnet
 
 **VidMagnet**, kullanıcıların çeşitli video platformlarından video ve ses dosyalarını kolayca indirip kaydedebildiği çok platformlu bir uygulamadır.
@@ -62,5 +65,6 @@ dependencies:
   http: ^0.13.6
   provider: ^6.1.2
   animated_text_kit: ^4.2.3
+
 
       
