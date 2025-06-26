@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/video_downloader_screen.dart';
+import 'package:flutter_app/widgets/VideoDownloaderScreen_widgets/splash_screen.dart';
 
 void main() {
   runApp(VidMagnetApp());
@@ -11,7 +11,7 @@ class VidMagnetApp extends StatelessWidget {
     return MaterialApp(
       title: 'VidMagnet',
       debugShowCheckedModeBanner: false,
-      home: VideoDownloaderScreen(),
+      home: SplashScreen(),
     );
   }
 }

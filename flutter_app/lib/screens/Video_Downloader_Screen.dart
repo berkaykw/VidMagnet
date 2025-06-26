@@ -26,8 +26,8 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
   int? _videoDuration;
 
   Future<void> sendVideoUrls() async {
-    final url = Uri.parse('http://10.0.2.2:8000/download');
-    // final url = Uri.parse('http://127.0.0.1:8000/download');
+    //final url = Uri.parse('http://10.0.2.2:8000/download');
+    final url = Uri.parse('http://127.0.0.1:8000/download');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},
@@ -65,7 +65,8 @@ class _VideoDownloaderScreenState extends State<VideoDownloaderScreen> {
   }
 
   Future<void> fetchVideoInfo() async {
-    final url = Uri.parse('http://10.0.2.2:8000/info');
+    //final url = Uri.parse('http://10.0.2.2:8000/info');
+    final url = Uri.parse('http://127.0.0.1:8000/info');
     final response = await http.post(
       url,
       headers: {"Content-Type": "application/json"},
