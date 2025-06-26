@@ -7,17 +7,17 @@ Backend Python FastAPI ile yazılmıştır, frontend ise Flutter kullanılarak g
 
 ## Özellikler
 
--Video ve ses dosyası indirme (MP4 ve MP3 seçenekleri)
--Video bilgilerini (başlık, küçük resim, dosya boyutu) gösterme
--Kullanıcı dostu Flutter arayüzü
--FastAPI ile hızlı ve asenkron indirme işlemleri
+- Video ve ses dosyası indirme (MP4 ve MP3 seçenekleri)
+- Video bilgilerini (başlık, küçük resim, dosya boyutu) gösterme
+- Kullanıcı dostu Flutter arayüzü
+- FastAPI ile hızlı ve asenkron indirme işlemleri
 
 ## Teknolojiler
 
--Flutter: Mobil ve masaüstü uygulama arayüzü
--FastAPI: Python backend, video indirme API'si
--yt-dlp: Video/ses indirme kütüphanesi
--FFmpeg: Video/ses işleme (postprocessing için)
+- Flutter: Mobil ve masaüstü uygulama arayüzü
+- FastAPI: Python backend, video indirme API'si
+- yt-dlp: Video/ses indirme kütüphanesi
+- FFmpeg: Video/ses işleme (postprocessing için)
 
 ### Backend Kurulum
 
