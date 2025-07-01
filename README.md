@@ -22,7 +22,7 @@ Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python bac
 - yt-dlp: Video/ses indirme kütüphanesi
 - FFmpeg: Video/ses işleme (postprocessing için)
 
-### Backend Kurulum
+###  Backend Kurulum
 
 1. **Python 3.8+ yüklü olduğundan emin olun.**
 
