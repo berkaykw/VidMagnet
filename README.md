@@ -8,7 +8,7 @@ Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python bac
 
 ---
 
-##  Özellikler
+## Özellikler
 
 - Video ve ses dosyası indirme (MP4 ve MP3 seçenekleri)
 - Video bilgilerini (başlık, küçük resim, dosya boyutu) gösterme
