@@ -45,7 +45,7 @@ Gerekli Python paketlerini yükleyin:  pip install fastapi uvicorn yt-dlp
 
 ### Frontend Kurulum
 
-1. **Flutter SDK** kurulu olmalıdır. Eğer yüklü değilse, [Flutter resmi sitesinden](https://flutter.dev/docs/get-started/install) kurulum yapabilirsiniz.
+1 . **Flutter SDK** kurulu olmalıdır. Eğer yüklü değilse, [Flutter resmi sitesinden](https://flutter.dev/docs/get-started/install) kurulum yapabilirsiniz.
 
 2. Proje dizinine gidin ve bağımlılıkları yükleyin:
 
