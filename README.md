@@ -15,7 +15,7 @@ Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python bac
 - Kullanıcı dostu Flutter arayüzü
 - FastAPI ile hızlı ve asenkron indirme işlemleri
 
-## Teknolojiler
+##  Teknolojiler
 
 - Flutter: Mobil ve masaüstü uygulama arayüzü
 - FastAPI: Python backend, video indirme API'si
