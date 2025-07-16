@@ -5,6 +5,7 @@
 
 **VidMagnet**, kullanıcıların çeşitli video platformlarından video ve ses dosyalarını kolayca indirip kaydedebildiği çok platformlu bir uygulamadır.
 Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python backend’i sayesinde yt-dlp ve FFmpeg kütüphanelerinin gücünden faydalanarak hızlı ve sorunsuz indirme işlemleri gerçekleştirir.
+
 ---
 
 ## Özellikler
