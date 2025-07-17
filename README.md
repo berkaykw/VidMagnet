@@ -1,7 +1,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/c25926bb-665f-4b64-98c9-5347a91347e6" width="250" />
-  <img src="https://github.com/user-attachments/assets/57fb624c-800f-423c-9683-8599777a6175" width="240" />
+  <img src="https://github.com/user-attachments/assets/57fb624c-800f-423c-9683-8599777a6175" width="243" />
 </div>
 
 
