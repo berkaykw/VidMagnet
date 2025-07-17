@@ -2,12 +2,12 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/c25926bb-665f-4b64-98c9-5347a91347e6" width="250" />
   <img src="https://github.com/user-attachments/assets/57fb624c-800f-423c-9683-8599777a6175" width="240" />
-  <video width="250" controls>
-    <source src="https://github.com/user-attachments/assets/326fbcb1-ba58-4b3a-8de3-30d39cf9e0f7" type="video/mp4" />
-    Tarayıcınız video etiketini desteklemiyor.
-  </video>
 </div>
 
+
+
+
+https://github.com/user-attachments/assets/62b8c413-093e-41b3-a989-cb67d1222f9b
 
 
 
