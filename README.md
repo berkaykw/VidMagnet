@@ -11,7 +11,6 @@ https://github.com/user-attachments/assets/62b8c413-093e-41b3-a989-cb67d1222f9b
 
 
 
-
 # VidMagnet
 
 **VidMagnet**, kullanıcıların çeşitli video platformlarından video ve ses dosyalarını kolayca indirip kaydedebildiği çok platformlu bir uygulamadır.
