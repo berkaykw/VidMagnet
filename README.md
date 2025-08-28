@@ -16,6 +16,7 @@ https://github.com/user-attachments/assets/62b8c413-093e-41b3-a989-cb67d1222f9b
 Flutter ile geliştirilmiş kullanıcı arayüzü ve FastAPI tabanlı Python backend’i sayesinde yt-dlp ve FFmpeg kütüphanelerinin gücünden faydalanarak hızlı ve sorunsuz indirme işlemleri gerçekleştirir.
 
 ---
+
 ## Özellikler
 
 - Video ve ses dosyası indirme (MP4 ve MP3 seçenekleri)
